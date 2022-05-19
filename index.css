@@ -1,0 +1,71 @@
+h1 {
+  font-size: 50px;
+}
+
+.weather-app {
+  padding: 50px 0px 20px 0px;
+  max-width: 450px;
+  margin: 10px auto;
+  border: solid;
+}
+
+.city-date {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.icon {
+  font-size: 100px;
+}
+
+.weather {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.curr-temp {
+  font-size: 40px;
+}
+
+.units {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.navbar {
+  width: max-content;
+  font-family: "Bebas Neue", cursive;
+}
+
+.search-bar-row {
+  height: 100px;
+}
+
+.button {
+  background-color: #f15d46;
+  color: aliceblue;
+  border: 1px solid #f15d46;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: #f15d46;
+}
+
+.curr-location-button {
+  margin-left: 10px;
+  background-color: #f15d46;
+  color: aliceblue;
+  border: 1px solid #f15d46;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.curr-location-button:hover {
+  background-color: aliceblue;
+  color: #f15d46;
+}
