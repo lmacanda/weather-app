@@ -2,6 +2,10 @@ h1 {
   font-size: 50px;
 }
 
+footer {
+  text-align: center;
+}
+
 .weather-app {
   padding: 50px 0px 20px 0px;
   max-width: 450px;
@@ -18,6 +22,10 @@ h1 {
   font-size: 100px;
 }
 
+.description {
+  font-size: 25px;
+}
+
 .weather {
   text-align: center;
   font-family: "Bebas Neue", cursive;
@@ -27,7 +35,7 @@ h1 {
   font-size: 40px;
 }
 
-.units {
+.parameters {
   font-family: "Bebas Neue", cursive;
   font-size: 25px;
 }
@@ -35,6 +43,7 @@ h1 {
 .navbar {
   width: max-content;
   font-family: "Bebas Neue", cursive;
+  margin-left: 25px;
 }
 
 .search-bar-row {
