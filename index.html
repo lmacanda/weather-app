@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>weather-app</title>
+    <meta charset="UTF-8" />
+     <style>
+     </style>
+     </head>
+  <body>
+    <div class="weather-app">
+      <div class="container">
+          <div class="row align-items-center justify-content-center">
+              <div class="col city-date">
+                   <h1 id="city">Lisbon</h1>
+                   <h2 id="today">Today</h2>
+              </div>
+              <div class="col weather">
+              <span class="icon">⛅</span>
+              <hr>
+              <div class="curr-temp" id="temperature">18
+                <span>
+                <a href="#" id="celsius">ºC</a> | 
+                <a href="#" id="fahrenheit">ºF</a>
+                </span></div>
+                <hr>
+                <div class="units">
+                <span>humidity: </span><span id="wind"></span><span> Km/h</span>
+                <hr>
+            <span>wind: </span><span id="humidity"></span><span>%</span></div>
+            <hr>
+              </div>       
+          </div>
+      <div class="row align-self-center search-bar-row">
+          <div class="col-12 search-bar>">
+      <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <form class="d-flex">
+              <input
+                id="input-city"
+                class="form-control me-2"
+                type="search"
+                aria-label="Search"
+                value="city"
+              />
+              <button type="button" class="btn">
+                Search City
+              </button>
+              <button type="button" class="curr-location-button" id="curr-location-button">Current Location</button>
+            </nav>
+        </form>
+          </div>
+      </div>
+    </div>
