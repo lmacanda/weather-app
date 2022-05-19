@@ -2,6 +2,15 @@ h1 {
   font-size: 50px;
 }
 
+span a {
+  text-decoration: none;
+  color: #f15d46;
+}
+
+span a:hover {
+  color: #f15d46;
+}
+
 footer {
   text-align: center;
 }
@@ -77,4 +86,14 @@ footer {
 .curr-location-button:hover {
   background-color: aliceblue;
   color: #f15d46;
+}
+
+.active {
+  color: black;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: #000;
 }
