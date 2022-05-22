@@ -81,7 +81,6 @@ function showPosition() {
 }
 
 function getPosition(position) {
-  console.log(position.longitude);
   let longitude = position.coords.longitude;
   let latitude = position.coords.latitude;
   let apiKey = "46b29bb09ed0ef009d3c22278289179e";
