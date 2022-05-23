@@ -17,15 +17,15 @@ footer {
 
 .weather-app {
   padding: 50px 0px 20px 0px;
-  max-width: 450px;
+  max-width: 550px;
   margin: 10px auto;
   border: solid;
 }
 
-.forecast {
+div.forecast {
   font-size: 20px;
   text-align: start;
-  margin-top: 54px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .city-date {
@@ -58,11 +58,11 @@ footer {
 .navbar {
   width: max-content;
   font-family: "Bebas Neue", cursive;
-  margin-left: 25px;
 }
 
 .search-bar-row {
   height: 100px;
+  margin-right: 0%;
 }
 
 .button {
