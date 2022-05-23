@@ -24,7 +24,6 @@ footer {
 
 div.forecast {
   font-size: 20px;
-  text-align: start;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -62,7 +61,6 @@ div.forecast {
 
 .search-bar-row {
   height: 100px;
-  margin-right: 0%;
 }
 
 .button {
@@ -103,4 +101,8 @@ div.forecast {
 .active:hover {
   text-decoration: none;
   color: #212529;
+}
+
+.forecast {
+  text-align: start;
 }
