@@ -15,6 +15,10 @@ footer {
   text-align: center;
 }
 
+form {
+  width: -webkit-fill-available;
+}
+
 .weather-app {
   padding: 50px 0px 20px 0px;
   max-width: 550px;
@@ -55,7 +59,7 @@ div.forecast {
 }
 
 .navbar {
-  width: max-content;
+  display: contents;
   font-family: "Bebas Neue", cursive;
 }
 
