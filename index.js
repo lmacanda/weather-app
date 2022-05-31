@@ -41,29 +41,32 @@ function displayForecast(response) {
   let forecast = response.data.daily;
   console.log(response.data.daily);
   let forecastElement = document.querySelector("#forecast");
-  let forecastHTML = `<hr>`;
+  let forecastHTML = `<hr>
+  <div class="row justify-content-evenly">`;
 
   forecast.forEach(function (forecastDay, index) {
     if (index < 5) {
       forecastHTML =
         forecastHTML +
         `
-  <div class="forecast" id="forecast">
-                     <div class="row">
-                  <div class="col-6 align-self-center" ><span>${formatDay(
-                    forecastDay.dt
-                  )}</span></div><div class="col-4 align-items-center"><span class="forecast-icon"><img src=http://openweathermap.org/img/wn/${
+        <div class="col-2 align-items-center">
+        <div class="row justify-content-center">
+        ${formatDay(forecastDay.dt)}
+        </div>
+        <div class="row align-items-center forecast-icon"><img src=http://openweathermap.org/img/wn/${
           forecastDay.weather[0].icon
-        }@2x.png alt=""/></span></div><div class="col-2 align-self-center"><span class="max-temp"> ${Math.round(
+        }@2x.png alt=""/>
+        </div>
+        <div clas="row align-items-center class="max-temp"> ${Math.round(
           forecastDay.temp.max
-        )}° </span><span class="min-temp"> ${Math.round(
-          forecastDay.temp.min
-        )}° </span></div></div>
-                  <hr>
-                </div> `;
+        )}° </span><span class="min-temp"> ${Math.round(forecastDay.temp.min)}°
+        </div>
+        </div>
+        `;
     }
   });
 
+  forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
 }
 
