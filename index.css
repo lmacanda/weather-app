@@ -110,3 +110,7 @@ div.forecast {
 .forecast {
   text-align: start;
 }
+
+.min-temp {
+  color: #9b9da0;
+}
