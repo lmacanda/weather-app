@@ -68,7 +68,7 @@ div.forecast {
 
 .button {
   background-color: #f15d46;
-  color: aliceblue;
+  color: black;
   border: 1px solid #f15d46;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -77,14 +77,15 @@ div.forecast {
 }
 
 .button:hover {
-  background-color: aliceblue;
+  background-color: black;
   color: #f15d46;
+  border: 1px solid black;
 }
 
 .curr-location-button {
   margin-left: 10px;
   background-color: #f15d46;
-  color: aliceblue;
+  color: black;
   border: 1px solid #f15d46;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -92,8 +93,9 @@ div.forecast {
 }
 
 .curr-location-button:hover {
-  background-color: aliceblue;
+  background-color: black;
   color: #f15d46;
+  border: 1px solid black;
 }
 
 .min-temp {
@@ -102,4 +104,8 @@ div.forecast {
 
 .col-2 {
   border: 10px #9b9da0;
+}
+
+.fa-temperature-full {
+  color: #f15d46;
 }
